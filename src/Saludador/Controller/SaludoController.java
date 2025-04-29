@@ -18,6 +18,7 @@ public class SaludoController {
         String nombre = scanner.nextLine();
         modelo.setNombreUsuario(nombre);
         vista.mostrarSaludo(nombre);
+        scanner.close();
 
     }
 }
